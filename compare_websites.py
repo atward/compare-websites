@@ -7,6 +7,12 @@ from PIL import Image, ImageChops
 from StringIO import StringIO
 from selenium import webdriver
 
+__author__ = "Charles François Rey"
+__copyright__ = "Copyright (c) 2017 Charles François Rey"
+__license__ = "MIT"
+__version__ = "0.1.0"
+__status__ = "Prototype"
+
 
 class TestTemplate(unittest.TestCase):
     __point_table = ([0] + ([255] * 255))
